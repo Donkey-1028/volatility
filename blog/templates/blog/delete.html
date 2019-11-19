@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block header %}
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">You're Deleting</div>
+        <div class="intro-heading text-uppercase">^ㅠ_ㅠ^</div>
+      </div>
+    </div>
+  </header>
+{% endblock %}
+{% block meaning %}
+{% endblock %}
+{% block about %}
+{% endblock %}
+
+
+{% block content %}
+
+<form action="" method="POST" id="passwordForm" style="display:none;">
+    {% csrf_token %}
+    {{ form.as_p }}
+</form>
+
+{% if messages %}
+{% for message in messages %}
+<script>alert('{{ message }}')</script>
+{% endfor %}
+{% endif %}
+
+
+<!--삭제를 요청 할 경우 prompt로 입력받아서 form에 자동 저장후 submit. 삭제 요청을 취소할경우 뒤로가기 -->
+<script>
+
+    var delete_check = confirm('정말로 지우시겠습니까?');
+    if(delete_check){
+        var password=prompt('글 작성시 입력한 비밀번호 입력하세요.');
+        document.getElementById('check_password').value=password;
+        document.forms['passwordForm'].submit();
+    }
+    else {
+        history.go(-1);
+    }
+</script>
+{% endblock %}
