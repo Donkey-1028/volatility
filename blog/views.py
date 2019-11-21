@@ -75,7 +75,7 @@ def index(request):
                 """만약 주어진 키워드로 검색된 데이터가 없다면
                 message 출력 하기 위해 message를 프론트단에 보내줌."""
                 messages.warning(request, schWord + ' 에 관한 검색결과가 없습니다.')
-                return redirect('/')
+                return redirect('blog:index')
 
             return render(request, 'blog/index.html', context)
 
