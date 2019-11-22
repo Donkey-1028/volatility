@@ -20,7 +20,7 @@
 * AWS S3
 * Heroku
     
-## 4. More Informations
+## 4. More Information
 #### 4.1 Website 
 >[**Volatility**](https://volatility-django.herokuapp.com/)
 #### 4.2 More informations  
