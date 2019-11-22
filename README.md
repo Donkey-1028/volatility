@@ -25,7 +25,7 @@
 #### 4.2 More information  
 >[**Volatility.pdf**](https://github.com/Donkey-1028/volatility/blob/master/volatility.pdf)
 #### 4.3 Bootstrap template  
->[**bootstrap-agency**](https://startbootstrap.com/themes/agency/)
+>[**Bootstrap-Agency**](https://startbootstrap.com/themes/agency/)
 #### 4.4 Markdown Editor
->[**editor**](https://jbt.github.io/markdown-editor/)
->[**git address**](https://github.com/jbt/markdown-editor/)
+>[**Editor**](https://jbt.github.io/markdown-editor/)<br>
+>[**Editor-Git-Address**](https://github.com/jbt/markdown-editor/)
