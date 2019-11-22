@@ -22,7 +22,7 @@
 ## 4. More Information
 #### 4.1 Website 
 >[**Volatility**](https://volatility-django.herokuapp.com/)
-#### 4.2 More informations  
+#### 4.2 More information  
 >[**Volatility.pdf**](https://github.com/Donkey-1028/volatility/blob/master/volatility.pdf)
 #### 4.3 Bootstrap template  
 >[**bootstrap-agency**](https://startbootstrap.com/themes/agency/)
